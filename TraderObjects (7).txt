@@ -1,0 +1,108 @@
+// ------------------------------------------------------ Trader Markers -------------------------------------------------------
+
+// Green Mountain:
+
+<TraderMarker> 			0 									// Trader ID
+<TraderMarkerPosition>	6411.35, 14.409, 10161.18 	// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<TraderMarkerSafezone>	80									// Safezone Radius
+
+<TraderMarker> 			1
+<TraderMarkerPosition>	6404.07,    14.583,     10161.97
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			2
+<TraderMarkerPosition>	6398.47,    14.608,     10161.12
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			3
+<TraderMarkerPosition>	6392.07,    14.648,     10159.71
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			4
+<TraderMarkerPosition>	6416.36,	14.252,		10160.40
+<TraderMarkerSafezone>	30
+
+<TraderMarker> 			5
+<TraderMarkerPosition>	6384.12,	14.703,		10170.57
+<TraderMarkerSafezone>	30
+<VehicleSpawn>			6379.67,	13.932,		10179.52	// Vehicle Spawnpoint for Trader; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
+<VehicleSpawnOri>		-42,		0,			0			// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
+
+
+// ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
+	
+// Green Mountain:
+
+<Object> 			SurvivorF_Irena						// Classname
+<ObjectPosition>	6411.35, 14.409, 10161.18
+<ObjectOrientation>	-22.091135,	0,			0
+<ObjectAttachment>	TacticalGloves_Snow_co
+<ObjectAttachment>	Ushanka_Snow_co
+<ObjectAttachment>	GorkaPants_Multicam_Snow_co
+<ObjectAttachment>	M65_Jacket_DpmWinter_co
+<ObjectAttachment>	militaryboots_Snow_co
+<ObjectAttachment>	Ghillie_snow_Suit_ca
+<ObjectAttachment>	Msp_Rabbit
+
+<Object> 			SurvivorF_Keiko
+<ObjectPosition>	6404.07,    14.583,     10161.97
+<ObjectOrientation>	-22.091135,	0,			0
+<ObjectAttachment>	TacticalGloves_Snow_co
+<ObjectAttachment>	Ushanka_Snow_co
+<ObjectAttachment>	GorkaPants_Multicam_Snow_co
+<ObjectAttachment>	M65_Jacket_DpmWinter_co
+<ObjectAttachment>	militaryboots_Snow_co
+<ObjectAttachment>	Ghillie_snow_Suit_ca
+<ObjectAttachment>	Msp_Rabbit
+
+<Object> 			SurvivorM_Seth
+<ObjectPosition>	6398.47,    14.608,     10161.12
+<ObjectOrientation>	-22.091135,	0,			0
+<ObjectAttachment>	TacticalGloves_Snow_co
+<ObjectAttachment>	Ushanka_Snow_co
+<ObjectAttachment>	GorkaPants_Multicam_Snow_co
+<ObjectAttachment>	M65_Jacket_DpmWinter_co
+<ObjectAttachment>	militaryboots_Snow_co
+<ObjectAttachment>	Ghillie_snow_Suit_ca
+<ObjectAttachment>	Msp_Rabbit
+
+<Object> 			SurvivorM_Taiki
+<ObjectPosition>	6392.07,    14.648,     10159.71
+<ObjectOrientation>	-22.091135,	0,			0
+<ObjectAttachment>	TacticalGloves_Snow_co
+<ObjectAttachment>	Ushanka_Snow_co
+<ObjectAttachment>	GorkaPants_Multicam_Snow_co
+<ObjectAttachment>	M65_Jacket_DpmWinter_co
+<ObjectAttachment>	militaryboots_Snow_co
+<ObjectAttachment>	Ghillie_snow_Suit_ca
+<ObjectAttachment>	Msp_Rabbit
+
+<Object> 			SurvivorF_Frida
+<ObjectPosition>	6416.36,	14.252,		10160.40
+<ObjectOrientation>	-22.091135,	0,			0
+<ObjectAttachment>	TacticalGloves_Snow_co
+<ObjectAttachment>	Ushanka_Snow_co
+<ObjectAttachment>	GorkaPants_Multicam_Snow_co
+<ObjectAttachment>	M65_Jacket_DpmWinter_co
+<ObjectAttachment>	militaryboots_Snow_co
+<ObjectAttachment>	Ghillie_snow_Suit_ca
+<ObjectAttachment>	Msp_Rabbit
+
+<Object> 			SurvivorM_Peter
+<ObjectPosition>	6384.12,	14.703,		10170.57
+<ObjectOrientation>	-22.091135,	0,			0
+<ObjectAttachment>	TacticalGloves_Snow_co
+<ObjectAttachment>	Ushanka_Snow_co
+<ObjectAttachment>	GorkaPants_Multicam_Snow_co
+<ObjectAttachment>	M65_Jacket_DpmWinter_co
+<ObjectAttachment>	militaryboots_Snow_co
+<ObjectAttachment>	Ghillie_snow_Suit_ca
+<ObjectAttachment>	Msp_Rabbit
+
+<Object>			BarrelHoles_Red
+<ObjectPosition>	6417.69,    6417.69,    10177.22
+<ObjectOrientation>	0,			0,			0
+
+
+//<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
+<FileEnd>												// This has to be on the End of this File and is very importand!
